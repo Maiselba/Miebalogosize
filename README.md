@@ -1,0 +1,1 @@
+<h3>Logo size changer for Shopware 6 by Mieba</h3>
