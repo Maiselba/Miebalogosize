@@ -3,5 +3,4 @@
 This is my first Shopware 6 Plugin where you can change the width of your logo
 
 ### ToDo
-*   Selecting Logo Position
-Standart-Left-Center-Right
+1.   Selecting Logo Position (Standart-Left-Center-Right)
