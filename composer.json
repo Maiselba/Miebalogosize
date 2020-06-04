@@ -1,0 +1,21 @@
+{
+  "name": "mieba/logosize",
+  "description": "Mieba Logosize Plugin",
+  "type": "shopware-platform-plugin",
+  "license": "MIT",
+  "authors": [{
+     "name": "Mahmut Dogan"
+    }],
+  "autoload": {
+    "psr-4": {
+      "Miebalogosize\\": "src/"
+    }
+  },
+  "extra": {
+    "shopware-plugin-class": "Miebalogosize\\Miebalogosize",
+    "label": {
+      "de-DE": "Mieba Logo Größe ändern",
+      "en-GB": "Mieba logosize changer"
+    }
+  }
+}

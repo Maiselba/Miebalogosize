@@ -1,0 +1,15 @@
+{% sw_extends '@Storefront/storefront/layout/meta.html.twig' %}
+
+{% block layout_head_stylesheet %}
+    {{ parent() }}
+	<style>
+		.miebalogo-percent
+		{{ "{" }}
+        	width: {{ shopware.config.Miebalogosize.config.miebaLogoSizeNumber }}%;
+        {{ "}" }}
+     	.miebalogo-pixel
+     	{{ "{" }}
+     		width: {{ shopware.config.Miebalogosize.config.miebaLogoSizeNumber }}px;
+     	{{ "}" }}
+	</style> 
+{% endblock %}

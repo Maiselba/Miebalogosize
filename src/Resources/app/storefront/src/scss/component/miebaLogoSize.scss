@@ -1,0 +1,19 @@
+.header-search-input
+{
+  border-radius: 50px 0 0 50px;
+}
+.header-search-btn
+{
+  border-radius: 50px;
+}
+.pagination, .page-item.disabled, .page-link
+{
+  background: #ffffff !important;
+}
+.page-item.active
+{
+  .page-link
+  {
+    background: #00C3FF !important;
+  }
+}

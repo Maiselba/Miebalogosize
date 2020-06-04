@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/platform/master/src/Core/System/SystemConfig/Schema/config.xsd">
+
+
+
+<card>
+    <title>Basic Configuration</title>
+    <title lang="de-DE">Grundeinstellungen</title>
+
+    <input-field type="text">
+        <name>miebaLogoSizeNumber</name>
+        <label>Width</label>
+        <label lang="de-DE">Größe</label>
+        <placeholder>Choose width</placeholder>
+        <placeholder lang="de-DE">Größe wählen</placeholder>
+        <defaultValue>100</defaultValue>
+    </input-field>
+
+    <input-field type="single-select">
+        <name>miebaLogoSizeUnit</name>
+        <label>Unit</label>
+        <label lang="de-DE">Maßeinheit</label>
+        <placeholder>Choose unit</placeholder>
+        <placeholder lang="de-DE">Maßeinheit wählen</placeholder>
+        <options>
+            <option>
+                <id>percent</id>
+                <name>Percent</name>
+                <name lang="de-DE">Prozent</name>
+            </option>
+            <option>
+                <id>pixel</id>
+                <name>Pixel</name>
+                <name lang="de-DE">Pixel</name>
+            </option>
+        </options>
+    </input-field>
+</card>
+</config>
